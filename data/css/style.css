@@ -30,20 +30,21 @@ nav {
 }
 
 .logo {
-    height: 40px;
-    width: 180px;
+    width: clamp(100px, 10vw, 10vw); /* sets the min to 100 px and the max to 10vw, but prefers 10vw (the middle) */
+    height: auto;
+    object-fit: cover; /* prevents stretching */
 }
 
 nav ul li {
     display: inline-block; /* makes them horizontally aligned */
     list-style-type: none;
-    margin: 10px 20px;
+    margin: 1vw 1vw;
 }
 
 nav ul li a {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    font-size: 1vw;
+    font-size: clamp(13px, 1vw, 1vw); /* sets the min to 13 px and the max to 1vw, but prefers 1vw (the middle) */
 }
 
 nav ul li:hover a {
