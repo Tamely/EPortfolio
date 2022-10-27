@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Cascadia Code";
+    src: url(../fonts/Cascadia.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +11,8 @@
 }
 
 body {
-    background-color: #1A191D;
+    background-image: linear-gradient(180deg, #29252d, #1A191D 100%);
+    /*background-color: #1A191D;*/
     color: #FFFFFF;
 }
 
@@ -130,4 +136,150 @@ nav ul li:hover a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 35vh;
+}
+
+#expertise h1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 5vh;
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+#expertise div {
+    position: relative;
+    margin: 15vh 10vw;
+    border: 3px solid white;
+}
+
+#expertise div ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#expertise div ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 1vw 1vw;
+}
+
+#expertise div ul li div {
+    border: 3px solid white;
+    position: relative;
+    margin: 0;
+    width: calc(70vw/3);
+    height: auto;
+}
+
+#expertise div ul li div img {
+    margin-top: 3vh;
+    margin-left: 2vw;
+    filter: invert(100%);
+    width: 3vw;
+    height: 3vw;
+}
+
+#expertise div ul li div h1 {
+    position: relative;
+    font-size: 1.5vw;
+    font-weight: 200;
+    text-align: left;
+    margin-left: 7vw;
+    top: -7.5vh;
+    line-height: 2vw;
+}
+
+#expertise div ul li div h1::before {
+    transition: all 0.1s ease-in-out;
+    content: '';
+    position: absolute;
+    bottom: 60%;
+    z-index: -1;
+    height: 0.3em;
+    width: 50%;
+    left: -1%;
+    background: #DF058D;
+}
+
+#expertise div ul li div div {
+    margin-left: 6vw;
+    width: calc(70vw/3 - 7vw);
+    height: auto;
+    border: none;
+}
+
+#expertise div ul li div div::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    background-color: white;
+    border: 0.1px solid white;
+    top: -15vh;
+    margin-left: -1.75vw;
+    opacity: .3;
+}
+
+#expertise div ul li div div h3::before {
+    margin-left: -3vw;
+    content: "<h3>";
+    margin-bottom: 1vh;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#expertise div ul li div div h3::after {
+    margin-left: -3vw;
+    content: "</h3>";
+    margin-bottom: 1vh;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#expertise div ul li div div h3 {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1vw;
+    font-weight: 50;
+    margin-top: -5vh;
+    line-height: 1.25vw;
+    padding-bottom: 2vh;
+}
+
+#expertise img:not(div ul li div img) {
+    position: relative;
+    top: -30vh;
+    left: 30vw;
+    width: 40vw;
+    height: auto;
+    z-index: 2;
+    opacity: 25%;
+}
+
+#work h1 {
+    position: relative;
+    left: 15vw;
+    width: 0; /* two lines */
+    color: white;
+    top: -15vh;
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+#work h2 {
+    position: relative;
+    top: -5vh;
+    left: 15vw;
+    width: 40vw;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+
+#work img {
+    position: relative;
+    top: -35vw;
+    left: 40vw;
+    z-index: 2;
+    width: 60vw;
+    height: auto;
 }

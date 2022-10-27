@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum=scale=1, user-scalable=no">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <title>Joshua Audia - Aspiring Software Engineer & Full-Stack Developer</title>
-    <meta name="description" content="Joshua Audia is an aspiring software engineer with experience working with both the front-end and back-end of applications with experience in Java, Python, C++, and C#">
+    <meta name="description" content="Joshua Audia is an aspiring software engineer with experience working with both the front-end and back-end of applications with experience in C++, C#, Python, Java, JavaScript, and TypeScript">
     <link rel="canonical" href="https://joshaudia.me">
     <link rel="stylesheet" href="./data/css/style.css" type="text/css">
 
-    <meta content="Joshua Audia" property="og:title" />
-    <meta content="Aspiring Software Engineer & Full-Stack Developer" property="og:description" />
-    <meta content="https://joshaudia.me" property="og:url" />
-    <meta content="https://joshaudia.me/data/img/logo/dark-mode.png" property="og:image" />
-    <meta content="#16222E" data-react-helmet="true" name="theme-color" />
+    <meta content="Joshua Audia" property="og:title"/>
+    <meta content="Aspiring Software Engineer & Full-Stack Developer" property="og:description"/>
+    <meta content="https://joshaudia.me" property="og:url"/>
+    <meta content="https://joshaudia.me/data/img/logo/dark-mode.png" property="og:image"/>
+    <meta content="#16222E" data-react-helmet="true" name="theme-color"/>
 </head>
 <body>
     <div id="header">
@@ -32,11 +32,11 @@
             <div class="light-circle"></div>
 
             <div class="header-text">
-                <h1>JOSH AUDIA</h1>
+                <h1>JOSHUA AUDIA</h1>
                 <h2>ASPIRING SOFTWARE ENGINEER & FULL STACK DEVELOPER.</h2>
             </div>
 
-            <div class="footer-arrow">
+            <div onclick="@navto(#expertise)" class="footer-arrow">
                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                 <lottie-player src="./data/json/purple-arrow-animation.json" background="transparent" speed="1" loop autoplay></lottie-player>
             </div>
@@ -44,7 +44,45 @@
     </div>
 
     <div id="expertise">
+        <h1>My Expertise</h1>
+        <div>
+            <ul>
+                <li>
+                    <div>
+                        <img src="./data/img/icons/computer.png"/>
+                        <h1>Software Development</h1>
+                        <div>
+                            <h3><br/>Experience in functional and OOP: C++, C#, Python, Java, JavaScript, TypeScript.<br/></h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./data/img/icons/xaml.png"/>
+                        <h1>Frontend Development</h1>
+                        <div>
+                            <h3><br/>Pationate in UI/UX design with 4 years of experience with XAML and 2 years with Next JS.<br/></h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./data/img/icons/node-js.png"/>
+                        <h1>Backend Development</h1>
+                        <div>
+                            <h3><br/>4 years of experience with ASP.NET MVC (C#) and 3 years of experience with Node JS.<br/></h3>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <img src="./data/img/bg/code-image.png"/>
+    </div>
 
+    <div id="work">
+        <h1>My Work</h1>
+        <h2>Saturn was my first big project I released. I used experience with Unreal Engine asset serialization to create a "swapper" which swaps asset pointers with those of other assets making the game load models and textures of my choice instead of those called by the game. Saturn currently has 3,000 daily users and 25,000 users in its discord server.</h2>
+        <img src="./data/img/work/saturn.png"/>
     </div>
 
 </body>
