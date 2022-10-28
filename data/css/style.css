@@ -136,6 +136,7 @@ nav ul li:hover a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 35vh;
+    cursor: pointer;
 }
 
 #expertise h1 {
@@ -252,7 +253,7 @@ nav ul li:hover a {
     width: 40vw;
     height: auto;
     z-index: 2;
-    opacity: 25%;
+    opacity: 15%;
 }
 
 #work h1 {
@@ -280,6 +281,6 @@ nav ul li:hover a {
     top: -35vw;
     left: 40vw;
     z-index: 2;
-    width: 60vw;
+    width: 55vw;
     height: auto;
 }
