@@ -135,7 +135,7 @@ import {
       date: "March 2022 - Present",
       points: [
         "Found and explored vulnerabilities regarding MitM (Man-in-the-Middle) attacks.",
-        "Collaborating developers to create solutions to tackle issues regarding these attacks.",
+        "Collaborating with game developers to create solutions to tackle issues regarding these attacks.",
         "Participating in vulnerability restesting.",
       ],
     },
