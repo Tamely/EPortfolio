@@ -124,7 +124,7 @@ import {
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing new concepts related to efficiency and security with file reading.",
         "Participating in code reviews and providing constructive feedback to other developers.",
-        "Participating in vulnerability restesting.",
+        "Participating in vulnerability retesting.",
       ],
     },
     {
@@ -136,7 +136,7 @@ import {
       points: [
         "Found and explored vulnerabilities regarding MitM (Man-in-the-Middle) attacks.",
         "Collaborating with game developers to create solutions to tackle issues regarding these attacks.",
-        "Participating in vulnerability restesting.",
+        "Participating in vulnerability retesting.",
       ],
     },
   ];
